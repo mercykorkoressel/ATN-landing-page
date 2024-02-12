@@ -18,6 +18,7 @@ body {
 padding-left: 20px; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), url(assets/pic\ 12.jpg);
+           
     background-size: cover;
     background-color: #3498db;
     background-position: center;
@@ -117,3 +118,63 @@ h2 {
     font-size: 15px;
 
 }
+
+.about-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 0;
+
+
+}
+
+.new-item{
+    display: flex;
+     align-items: center;
+width: 100%;
+margin: auto;
+background-color: #a77e69;
+}
+
+.new-items-text{padding: 20px;
+    color: white;
+
+}
+
+.texts {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.texts h3{
+    padding: 14px;
+    color: #a77e69;
+}
+
+
+img {
+    width: 100%;
+}
+
+.img{
+    width: 70%;
+}
+
+.service-item{
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 50px;
+        grid-row-gap: 0px;
+        
+}
+
+.services
+{
+    padding: 120px 30px;
+    text-align: center;
+
+}
+
