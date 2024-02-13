@@ -16,8 +16,8 @@ body {
 .bg {
     /* background-image:,url(assets/pic\ 7.jpg);
 padding-left: 20px; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url(assets/pic\ 12.jpg);
+    background-image: linear-gradient(rgba(238, 140, 140, 0.5),
+            rgba(0, 0, 0, 0.5)), url(assets/pexels-arif-khan-13595831.jpg);
            
     background-size: cover;
     background-color: #3498db;
@@ -55,7 +55,7 @@ a:hover {
 
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
 }
 
 
@@ -80,7 +80,7 @@ h2 {
     -moz-border-radius: 28;
     border-radius: 28px;
     font-family: Georgia;
-    color: #e6d8e6;
+    color: palevioletred;
     font-size: 20px;
     background: #cfb3a3;
     padding: 10px 20px 10px 20px;
@@ -100,7 +100,7 @@ h2 {
 
 .header-text {
     text-align: center;
-    color: beige;
+    color:rgb(245, 245, 245);
     padding: 120px 0 30px 0;
     width: 50%;
     margin: auto;
@@ -132,13 +132,16 @@ h2 {
 .new-item{
     display: flex;
      align-items: center;
-width: 100%;
+width: 100vw;
 margin: auto;
-background-color: #a77e69;
+background:linear-gradient(to bottom,white,pink);
+padding: 0 50px;
 }
 
-.new-items-text{padding: 20px;
-    color: white;
+.new-items-text{
+    /* padding: 20px; */
+    color:rgb(224, 124, 141);
+    width:60% ;
 
 }
 
@@ -149,16 +152,21 @@ background-color: #a77e69;
 
 .texts h3{
     padding: 14px;
-    color: #a77e69;
+    color:rgb(238, 73, 100);
 }
 
 
 img {
     width: 100%;
+    border-radius: 15px;
+    border: aliceblue;
 }
 
+
 .img{
-    width: 70%;
+    width: 40%;
+    margin: 30px;
+    
 }
 
 .service-item{
@@ -168,13 +176,64 @@ img {
         grid-template-rows: 1fr;
         grid-column-gap: 50px;
         grid-row-gap: 0px;
-        
+       
 }
 
 .services
 {
     padding: 120px 30px;
     text-align: center;
+   
+
 
 }
 
+.service-card{
+    background-color:rgb(214, 101, 120);
+    color : white;
+    padding:20px ;
+}
+.services h2 {
+    margin-bottom: 30px;
+}
+
+.products{
+    
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 33px;
+        grid-row-gap: 40px;
+
+        
+    }
+
+.product-card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.product-card {
+    text-align: center;
+}
+
+.productsession h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.productsession{
+    background: linear-gradient(to bottom,white,pink);
+
+}
+
+.The-team{
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 35px;
+        grid-row-gap: 39px;
+        
+}
