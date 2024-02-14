@@ -228,12 +228,34 @@ img {
 
 }
 
-.The-team{
+.team{
     
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;
-        grid-column-gap: 35px;
+        grid-column-gap: 50px;
         grid-row-gap: 39px;
         
+        
+}
+
+team-card 
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.team-card {
+    text-align: center;
+}
+
+.teamsession h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.teamsession{
+    background: linear-gradient(to bottom,white,pink);
+
 }
