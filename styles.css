@@ -220,37 +220,31 @@ img {
     margin-bottom: 30px;
 }
 
-.products{
+.testi{
     
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 33px;
-        grid-row-gap: 40px;
-        padding: 30px;
-        
+   
     }
 
-.product-card img{
+.testi-card img{
     width: 300px;
     height: 300px;
     border-radius: 15px;
     padding: 18px;
 }
 
-.product-card {
+.testi-card {
     text-align: center;
     padding: 15px;
     border-radius: 10%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.productsession h2{
+.testi h2{
     text-align: center;
     margin-bottom: 30px;
 }
 
-.productsession{
+.testi{
     background: linear-gradient(to bottom,white,pink);
 
 }
@@ -326,10 +320,56 @@ img{
 }
 
 .social-media img {
-    width: 30px;
+    width: 500px;
     height: 30px;
 }
 
 /* Adjust the width, height, margin, and other properties of the social media icons as needed */
 
 
+
+
+.testimonial
+{
+padding: 120px ;
+text-align: center;
+background-image: url(../src/Assect/artem-kniaz-RWeO3t9FxG0-unsplash.jpg);
+background-position: center;
+background-size: cover;
+
+
+
+}
+
+.testi h2{
+
+    text-align: center;
+    /* margin-bottom: 30px; */
+    font-size: 50px;
+    color: white;
+    padding-top: none;
+    
+}
+
+.testi-card{
+  background-color:linear-gradient(90deg, rgba(50, 44, 51, 0.698) 21%, rgba(56, 59, 66, 0.603) 100%);
+  color : white;
+  padding:20px ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow to create 3D effect */
+border-radius: 3px;
+height: 210px;
+
+}
+.testi h2 {
+margin-bottom: 30px;
+}
+
+.history-item{
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 0px;
+ 
+}
