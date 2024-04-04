@@ -220,35 +220,43 @@ img {
     margin-bottom: 30px;
 }
 
-.testi{
-    
-   
-    }
 
-.testi-card img{
+
+.product-card img{
     width: 300px;
     height: 300px;
     border-radius: 15px;
     padding: 18px;
 }
 
-.testi-card {
+.product-card {
     text-align: center;
     padding: 15px;
     border-radius: 10%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.testi h2{
+.product-card h2{
     text-align: center;
     margin-bottom: 30px;
 }
 
-.testi{
-    background: linear-gradient(to bottom,white,pink);
+.products{
+  
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    
 
 }
 
+.productsession {
+    background: linear-gradient(to bottom,white,pink);
+    padding: 50px;
+}
 .team{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -292,9 +300,10 @@ img{
 }
  .product-card {
     padding: 10px;
-
-
- }
+    text-align: center;
+    border-radius: 10%;
+    padding: 30px;
+    }
 
  footer {
     background-color: #c46565;
@@ -320,7 +329,7 @@ img{
 }
 
 .social-media img {
-    width: 500px;
+    width: 30px;
     height: 30px;
 }
 
@@ -328,48 +337,3 @@ img{
 
 
 
-
-.testimonial
-{
-padding: 120px ;
-text-align: center;
-background-image: url(../src/Assect/artem-kniaz-RWeO3t9FxG0-unsplash.jpg);
-background-position: center;
-background-size: cover;
-
-
-
-}
-
-.testi h2{
-
-    text-align: center;
-    /* margin-bottom: 30px; */
-    font-size: 50px;
-    color: white;
-    padding-top: none;
-    
-}
-
-.testi-card{
-  background-color:linear-gradient(90deg, rgba(50, 44, 51, 0.698) 21%, rgba(56, 59, 66, 0.603) 100%);
-  color : white;
-  padding:20px ;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Add shadow to create 3D effect */
-border-radius: 3px;
-height: 210px;
-
-}
-.testi h2 {
-margin-bottom: 30px;
-}
-
-.history-item{
-
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 50px;
-  grid-row-gap: 0px;
- 
-}
